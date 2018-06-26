@@ -9,7 +9,7 @@ eureka:
     instance-id: ${spring.cloud.client.ip-address}:${server.port}
     #服务续约到期时间 单位秒
     lease-expiration-duration-in-seconds: 10
-    #服务续约间隔时间 单位秒
+    #服务心跳间隔时间 单位秒
     lease-renewal-interval-in-seconds: 5
 
 management:
