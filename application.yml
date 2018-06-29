@@ -1,3 +1,17 @@
+spring:
+  cloud:
+    config:
+      #git 仓库版本或是本地文件native则无效
+      label: master
+      #config server 地址
+      #uri: http://configServer
+      #指定配置文件后缀
+      discovery:
+        #配置服务 注册标识
+        service-id: configServer
+        #是否开启配置服务注册加载
+        enabled: true
+
 management:
   health:
     defaults:
@@ -18,4 +32,5 @@ info:
       description: '@project.description@'
       version: '@project.version@'
       parent-version: '@project.parent.version@'
+
 name: buhao
