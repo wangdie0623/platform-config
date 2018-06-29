@@ -11,12 +11,6 @@ springfox:
       v2:
         #默认选项
         path: /api-docs
-info:
-    app:
-      #导入pom文件信息
-      name: '@project.name@'
-      description: '@project.description@'
-      version: '@project.version@'
-      parent-version: '@project.parent.version@'
+
 
 name: buhao
